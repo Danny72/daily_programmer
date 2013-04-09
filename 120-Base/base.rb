@@ -24,8 +24,8 @@ def from_base10(input, base)
 end
 
 
-num = "e1f1"
-base = "25"
+num = "941695496"
+base = "10"
 dic = File.read("dic.txt").split("\r\n").join(",")
 
 dec_num = to_base10(num,base) 
