@@ -51,12 +51,8 @@ def strong_connect(v)
   end
 end
 
-vertices = []
-edges = []
-result = []
-
-$vertices, $edges = read_input(vertices,edges)
-vertices.each do |v|
+$vertices, $edges = read_input($vertices,$edges)
+$vertices.each do |v|
   if v[1] == nil
     strong_connect v
   end
